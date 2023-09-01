@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallest", "..\Worlds
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seri", "..\Seri\Seri.csproj", "{95792B3F-61B8-48B7-8289-11B2B9F28B2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerPerMinute", "..\TimerPerMinute\TimerPerMinute.csproj", "{CFEEF6C2-AFB7-438A-8C77-27D0E46B48B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{95792B3F-61B8-48B7-8289-11B2B9F28B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95792B3F-61B8-48B7-8289-11B2B9F28B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95792B3F-61B8-48B7-8289-11B2B9F28B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEEF6C2-AFB7-438A-8C77-27D0E46B48B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEEF6C2-AFB7-438A-8C77-27D0E46B48B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEEF6C2-AFB7-438A-8C77-27D0E46B48B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEEF6C2-AFB7-438A-8C77-27D0E46B48B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
