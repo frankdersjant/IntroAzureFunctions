@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDemo", "..\QueueDemo\Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionDependencyInjection", "..\AzureFunctionDependencyInjection\AzureFunctionDependencyInjection.csproj", "{6BC11D7F-DA77-4008-8A95-BC80C9A8825D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTriggerOutputToQueue", "..\HttpTriggerOutputToQueue\HttpTriggerOutputToQueue.csproj", "{EE400721-E513-4E9E-847D-8932C88CCA39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6BC11D7F-DA77-4008-8A95-BC80C9A8825D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC11D7F-DA77-4008-8A95-BC80C9A8825D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC11D7F-DA77-4008-8A95-BC80C9A8825D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE400721-E513-4E9E-847D-8932C88CCA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE400721-E513-4E9E-847D-8932C88CCA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE400721-E513-4E9E-847D-8932C88CCA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE400721-E513-4E9E-847D-8932C88CCA39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
