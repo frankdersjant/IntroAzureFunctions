@@ -23,12 +23,15 @@ namespace AzureFunctionDependencyInjection
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
 
+            IEnumerable<Product> products = _fakeProductDB.GetProducts();
+
+
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString("Welcome to Azure Functions!");
+            response.WriteString(products.First().ProductName + DateTime.Now);
 
-            IEnumerable<Product> products = _fakeProductDB.GetProducts();
+
 
             return response;
         }
