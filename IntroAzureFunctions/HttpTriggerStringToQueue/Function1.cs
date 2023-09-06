@@ -17,7 +17,6 @@ namespace HttpTriggerStringToQueue
         //QueueOutput attribute compilation errors?
         //install-package Microsoft.Azure.Functions.Worker.Extensions.Storage.Queues via NuGet - Package Manager Console
 
-
         [Function("Function1")]
         [QueueOutput("test-myqueue-items")]
         public static List<string> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
