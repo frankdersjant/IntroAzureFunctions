@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldsSmallest", "..\WorldsSmallest\WorldsSmallest.csproj", "{040DB527-0D5D-4B76-B1A7-2DE623C09ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldsSmallest", "..\WorldsSmallest\WorldsSmallest.csproj", "{040DB527-0D5D-4B76-B1A7-2DE623C09ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seri", "..\Seri\Seri.csproj", "{95792B3F-61B8-48B7-8289-11B2B9F28B2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seri", "..\Seri\Seri.csproj", "{95792B3F-61B8-48B7-8289-11B2B9F28B2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerPerMinute", "..\TimerPerMinute\TimerPerMinute.csproj", "{CFEEF6C2-AFB7-438A-8C77-27D0E46B48B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerPerMinute", "..\TimerPerMinute\TimerPerMinute.csproj", "{CFEEF6C2-AFB7-438A-8C77-27D0E46B48B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDemo", "..\QueueDemo\QueueDemo.csproj", "{633DE9B9-1A12-48ED-BC9B-76B79BFED85B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueDemo", "..\QueueDemo\QueueDemo.csproj", "{633DE9B9-1A12-48ED-BC9B-76B79BFED85B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionDependencyInjection", "..\AzureFunctionDependencyInjection\AzureFunctionDependencyInjection.csproj", "{6BC11D7F-DA77-4008-8A95-BC80C9A8825D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionDependencyInjection", "..\AzureFunctionDependencyInjection\AzureFunctionDependencyInjection.csproj", "{6BC11D7F-DA77-4008-8A95-BC80C9A8825D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTriggerOutputToQueue", "..\HttpTriggerOutputToQueue\HttpTriggerOutputToQueue.csproj", "{EE400721-E513-4E9E-847D-8932C88CCA39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerOutputToQueue", "..\HttpTriggerOutputToQueue\HttpTriggerOutputToQueue.csproj", "{EE400721-E513-4E9E-847D-8932C88CCA39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTriggerStringToQueue", "HttpTriggerStringToQueue\HttpTriggerStringToQueue.csproj", "{304A4D83-DD01-4180-ABCF-B0E9DE642000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{EE400721-E513-4E9E-847D-8932C88CCA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE400721-E513-4E9E-847D-8932C88CCA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE400721-E513-4E9E-847D-8932C88CCA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304A4D83-DD01-4180-ABCF-B0E9DE642000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304A4D83-DD01-4180-ABCF-B0E9DE642000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304A4D83-DD01-4180-ABCF-B0E9DE642000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304A4D83-DD01-4180-ABCF-B0E9DE642000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
