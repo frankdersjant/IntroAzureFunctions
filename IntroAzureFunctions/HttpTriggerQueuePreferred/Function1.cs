@@ -1,4 +1,6 @@
 using System.Net;
+using System.Text.Json;
+using HttpTriggerQueuePreferred.Model;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
@@ -15,16 +17,32 @@ namespace HttpTriggerQueuePreferred
         }
 
         [Function("Function1")]
-        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
+        public CustumOutputType Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
         {
-            _logger.LogInformation("C# HTTP trigger function processed a request.");
+            string requestBody = String.Empty;
+
+            using (StreamReader streamReader = new StreamReader(req.Body))
+            {
+                requestBody = streamReader.ReadToEnd();
+            }
+            Customer customerdata = JsonSerializer.Deserialize<Customer>(requestBody);
 
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString("Welcome to Azure Functions!");
+            return new CustumOutputType
+            {
 
-            return response;
+                Name = customerdata.Name,
+                HttpResponse = response
+            };
+        }
+
+        public class CustumOutputType
+        {
+            [QueueOutput("testque")]
+            public string Name { get; set; }
+            public HttpResponseData HttpResponse { get; set; }
         }
     }
 }
