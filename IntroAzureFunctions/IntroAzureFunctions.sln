@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionDependencyInje
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerOutputToQueue", "..\HttpTriggerOutputToQueue\HttpTriggerOutputToQueue.csproj", "{EE400721-E513-4E9E-847D-8932C88CCA39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTriggerStringToQueue", "HttpTriggerStringToQueue\HttpTriggerStringToQueue.csproj", "{304A4D83-DD01-4180-ABCF-B0E9DE642000}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpTriggerStringToQueue", "HttpTriggerStringToQueue\HttpTriggerStringToQueue.csproj", "{304A4D83-DD01-4180-ABCF-B0E9DE642000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTriggerQueuePreferred", "HttpTriggerQueuePreferred\HttpTriggerQueuePreferred.csproj", "{EB02A035-D4F9-4332-800C-5F46D1D2D97F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{304A4D83-DD01-4180-ABCF-B0E9DE642000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{304A4D83-DD01-4180-ABCF-B0E9DE642000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{304A4D83-DD01-4180-ABCF-B0E9DE642000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB02A035-D4F9-4332-800C-5F46D1D2D97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB02A035-D4F9-4332-800C-5F46D1D2D97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB02A035-D4F9-4332-800C-5F46D1D2D97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB02A035-D4F9-4332-800C-5F46D1D2D97F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
